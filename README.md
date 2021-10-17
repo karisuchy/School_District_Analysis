@@ -5,14 +5,14 @@
 Esplain the purpose of tre analyssis. the purpose must be well defined
 
 
-Maria, chief data scientist, responsible for analyzing information from a variety of sources in a variety of formats. 
+Maria, chief data scientist for a local schoo district, responsible for analyzing information from a variety of sources in a variety of formats. 
 Task is to preparing all standardized test data for analysis, reporting, and presentation to provide insights about performance trends and patterns.  Insights are used to inform discussions and strategic decisions at the school and distrcit level.  
 
 Aggregate data and show trends in school performance
 
 this analysis will assist the school board and superintent in making decisions regarding budget and priorities.  
 
-At all stages of this project, the detailed data was treated confidentialtiy to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). This report does not identify individual student information.  
+At all stages of this project, the detailed data was treated confidentially to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). This report does not identify individual student information.  
 
 ### adjusted data
 School board suspects academic dishonest with the reading and math grades for the ninth graders at Thomas High School.  These scores have been removed from the analysis. 

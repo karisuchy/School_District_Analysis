@@ -3,6 +3,8 @@
 
 ## Overview
 Esplain the purpose of tre analyssis. the purpose must be well defined
+
+
 Maria, chief data scientist, responsible for analyzing information from a variety of sources in a variety of formats. 
 Task is to preparing all standardized test data for analysis, reporting, and presentation to provide insights about performance trends and patterns.  Insights are used to inform discussions and strategic decisions at the school and distrcit level.  
 
@@ -15,11 +17,9 @@ At all stages of this project, the detailed data was treated confidentialtiy to 
 ### adjusted data
 School board suspects academic dishonest with the reading and math grades for the ninth graders at Thomas High School.  These scores have been removed from the analysis. 
 
-
-## Sources
-schools_complete.csv
-students_complete.csv
-Python, Jupyter, panda
+## Resources
+Data Sources: schools_complete.csv; students_complete.csv
+Software: Python 3.7, Jupyter 6.3.0, Panda 1.2.4
 
 ## Results
 Using bulleted lists and images of DataFrames as support, address the following questions.

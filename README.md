@@ -3,7 +3,7 @@
 
 ## Overview
 
-Take in infomraotn from multiple sources to provide analysis, reporting, and  presentation materials regarding standardized test data. The information is presented to the chief data scientist for a local schoo district.  This report provides insights about performance trends and patterns so the school board and superintentent can make informed, strategic decisions reagrding budgets and priorities at both the school and district levels. 
+Take in information from multiple sources to provide analysis, reporting, and  presentation materials regarding standardized test data. The information is presented to the chief data scientist for a local schoo district.  This report provides insights about performance trends and patterns so the school board and superintentent can make informed, strategic decisions reagrding budgets and priorities at both the school and district levels. 
 
 The data prepared in this report 
 Task is to preparing all standardized test data for analysis, reporting, and presentation to provide insights about performance trends and patterns.  Insights are used to inform discussions and strategic decisions at the school and distrcit level.  
@@ -25,16 +25,27 @@ In order to remove the 9th Grade Scores from Thomas High School without skewing 
 ![THS 9th grade scores NaN](https://user-images.githubusercontent.com/90162669/137651818-8d0e53ba-d4ab-455a-9e2e-39d07b01bf9b.png)
 
 - How is the district summary affected?
-The impact of removing these students from the overall data was negligible. For exampple, overall distict percentage changed by only XXX % as demonostrated onteh two chargts below. 
+The impact of removing these students from the overall data was negligible. For exampple, overall distict percentage changed by only 0.3 % as demonostrated on the two charts below. 
+
+District Summary Before Adjustment
+![BA District Summary](https://user-images.githubusercontent.com/90162669/138365206-b02b7b8b-7644-4db5-9d5a-da8207d8bc3c.png)
+
+
+District Summary After Adjustment
+
+![AA District Summary](https://user-images.githubusercontent.com/90162669/138365232-a9442985-ab35-4849-b831-7e05b1b78ae1.png)
+
 
 - How is the school summary affected and how does it affect Thomas Hight School's performance relative to the other schools?
-The impact of the change is much more noticable at the school level. Thomas High School was the second ranked school in the district prior to the adjustment but fell to fourth place afterwords. 
+The impact of the change is slightly more noticable at the school level. Thomas High School % of overall passing changed by 0.3.  They were original the second placed school on their own, they are now tied for second place with two other schools. 
 
 Top five Schools prior to adjustment:
-![BA Top 5 Schools](https://user-images.githubusercontent.com/90162669/137653219-775445a5-e9c5-49c2-859e-bb4a9c83299f.png)
+![BA Top 5 Schools](https://user-images.githubusercontent.com/90162669/138364802-c966e960-295b-42b6-ad18-66f842ee7be6.png)
+
 
 Top five schools after the adjustment
-![AA Top 5 schools](https://user-images.githubusercontent.com/90162669/137653477-74ae1906-b416-40c8-bf0b-6ec57afd4f41.png)
+![AA Top 5 schools](https://user-images.githubusercontent.com/90162669/138364782-8d7172a3-0837-46d9-9a55-6026d1376880.png)
+
 
 - How does replacing the ninth-grade scores affect the following:
 - Math and reading scores by grade

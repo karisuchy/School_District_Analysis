@@ -10,14 +10,14 @@ Task is to preparing all standardized test data for analysis, reporting, and pre
 
 Aggregate data and show trends in school performance
 
-At all stages of this project, the detailed data was treated confidentially to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). Any information in the final analysis that identifies individual students, must also be considered to be both confidential and sensitive.   
+At all stages of this project, the detailed data was treated confidentially to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). All information in this analysis that identifies individual students must also be considered to be both confidential and sensitive by readers of this report.   
 
 ### Adjusted Data
 Based upon preliminary report findings, the school board suspected academic dishonesty with the reading and math scores for the ninth graders at Thomas High School. These scores have been removed from the analysis for this final report. 
 
 ## Resources
-Data Sources: schools_complete.csv; students_complete.csv
-Software: Python 3.7, Jupyter 6.3.0, Panda 1.2.4
+-Data Sources: schools_complete.csv; students_complete.csv
+-Software: Python 3.7, Jupyter 6.3.0, Panda 1.2.4
 
 ## Results
 The scores for all 9th Graders from Thomas High School were chagned to NaN (not a number) to avoid skewing the other results. All calculcuations were updated to elimiante these scores from the aggragate data. 
@@ -74,25 +74,23 @@ include df image
 ### Scores by School Size
 include df image   Passing math % went done one percentage point, for medium size schools no other impact. 
 
-Before Adjustment
-
+Before Adjustment:
 ![BA scores by school size](https://user-images.githubusercontent.com/90162669/138526833-4f7bd9b2-a1f8-42ff-8ed7-87957f298e9f.png)
 
 
-After Adjustment
-
+After Adjustment:
 ![AA scores by school size](https://user-images.githubusercontent.com/90162669/138526841-9f5a2184-941c-4a81-a8a9-38ab92c6780b.png)
 
 
 ### Scores by School Type
 include df image
 
-Before Adjustment
-![BA Type Chart](https://user-images.githubusercontent.com/90162669/137656567-b2818470-e0d4-410c-b061-39012c0da8ca.png)
+Before Adjustment:
+![BA scores by school type](https://user-images.githubusercontent.com/90162669/138527523-6ac37fdc-1b44-47cf-8844-6bdc844f6f65.png)
 
 
-After Adjustment
-
+After Adjustment:
+![AA scores by school type](https://user-images.githubusercontent.com/90162669/138527515-a55e0b5c-ff66-4a64-9ff9-b397024be177.png)
 
 
 

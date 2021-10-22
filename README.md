@@ -3,14 +3,14 @@
 
 ## Overview
 
-Take in information from multiple sources to provide analysis, reporting, and  presentation materials regarding standardized test data. The information is presented to the chief data scientist for a local schoo district.  This report provides insights about performance trends and patterns so the school board and superintentent can make informed, strategic decisions reagrding budgets and priorities at both the school and district levels. 
+The analysis, reporting, and  presentation materials regarding standardized test data. This report provides insights about performance trends and patterns so the school board and superintentent can make informed, strategic decisions reagrding budgets and priorities at the district level and for invididual schools. 
 
 The data prepared in this report 
-Task is to preparing all standardized test data for analysis, reporting, and presentation to provide insights about performance trends and patterns.  Insights are used to inform discussions and strategic decisions at the school and distrcit level.  
+Task is to preparing all standardized test data for analysis, reporting, and presentation to provide insights about performance trends and patterns. Insights are used to inform discussions and strategic decisions at the school and distrcit level.  
 
 Aggregate data and show trends in school performance
 
-At all stages of this project, the detailed data was treated confidentially to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). All information in this analysis that identifies individual students must also be considered to be both confidential and sensitive by readers of this report.   
+At all stages of this project, the detailed data was treated confidentially to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). All information in this analysis that identifies individual students must also be considered to be both confidential and sensitive by the readers of this report.   
 
 ### Adjusted Data
 Based upon preliminary report findings, the school board suspected academic dishonesty with the reading and math scores for the ninth graders at Thomas High School. These scores have been removed from the analysis for this final report. 
@@ -97,6 +97,10 @@ After Adjustment:
 ## Summary
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 add subheading 
+
+As demonstrated above, the overall impact of eliminating Thomas High School's ninth grade scores was negligible. A few areas where changes can be seen are: 
+
+
 
 All information is available the shared development enviroment and is available on Git Hub.
 

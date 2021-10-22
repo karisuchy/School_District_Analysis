@@ -16,8 +16,8 @@ At all stages of this project, the detailed data was treated confidentially to p
 Based upon preliminary report findings, the school board suspected academic dishonesty with the reading and math scores for the ninth graders at Thomas High School. These scores have been removed from the analysis for this final report. 
 
 ## Resources
--Data Sources: schools_complete.csv; students_complete.csv
--Software: Python 3.7, Jupyter 6.3.0, Panda 1.2.4
+- Data Sources: schools_complete.csv; students_complete.csv
+- Software: Python 3.7, Jupyter 6.3.0, Panda 1.2.4
 
 ## Results
 The scores for all 9th Graders from Thomas High School were chagned to NaN (not a number) to avoid skewing the other results. All calculcuations were updated to elimiante these scores from the aggragate data. 

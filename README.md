@@ -20,30 +20,30 @@ Data Sources: schools_complete.csv; students_complete.csv
 Software: Python 3.7, Jupyter 6.3.0, Panda 1.2.4
 
 ## Results
-In order to remove the 9th Grade Scores from Thomas High School without skewing the results, those scores were all chagned to NaN (not a number). All calculcuations were updated to elimiante these scores from the aggragate data. 
+The scores for all 9th Graders from Thomas High School were chagned to NaN (not a number) to avoid skewing the other results. All calculcuations were updated to elimiante these scores from the aggragate data. 
 
 ![THS 9th grade scores NaN](https://user-images.githubusercontent.com/90162669/137651818-8d0e53ba-d4ab-455a-9e2e-39d07b01bf9b.png)
 
 - How is the district summary affected?
-The impact of removing these students from the overall data was negligible. For exampple, overall distict percentage changed by only 0.3 % as demonostrated on the two charts below. 
+The impact of removing these students from the overall data was negligible. For example, the '% Overall Passing' decreased by only 0.3% as demonostrated on the two charts below. 
 
-District Summary Before Adjustment
+**District Summary Before Adjustment:**
 ![BA District Summary](https://user-images.githubusercontent.com/90162669/138365206-b02b7b8b-7644-4db5-9d5a-da8207d8bc3c.png)
 
 
-District Summary After Adjustment
+**District Summary After Adjustment:**
 
 ![AA District Summary](https://user-images.githubusercontent.com/90162669/138365232-a9442985-ab35-4849-b831-7e05b1b78ae1.png)
 
 
-- How is the school summary affected and how does it affect Thomas Hight School's performance relative to the other schools?
-The impact of the change is slightly more noticable at the school level. Thomas High School % of overall passing changed by 0.3.  They were original the second placed school on their own, they are now tied for second place with two other schools. 
+- How is the school summary affected and how does it affect Thomas High School's performance relative to the other schools?
+The impact of the change is only slightly more noticable at the school level. Thomas High School's '% of Overall Passing' changed by 0.3%.  They were originally the only school in second place;  after the adjustment, they are now tied for second place with two other schools. 
 
-Top five Schools prior to adjustment:
+**Top Five Schools Prior to Adjustment:**
 ![BA Top 5 Schools](https://user-images.githubusercontent.com/90162669/138364802-c966e960-295b-42b6-ad18-66f842ee7be6.png)
 
 
-Top five schools after the adjustment
+**Top Five Schools After the Adjustment:**
 ![AA Top 5 schools](https://user-images.githubusercontent.com/90162669/138364782-8d7172a3-0837-46d9-9a55-6026d1376880.png)
 
 
@@ -53,18 +53,21 @@ Top five schools after the adjustment
 - Scores by school size
 - Scores by school type
 
+
+
+
 ### Impact of Removing Data
 include images of code
 
 ### Scores by School Spending
 include df image
 
-Before Adjustment
+**Before Adjustment:**
+![BA Spending Bins](https://user-images.githubusercontent.com/90162669/138526015-cc603467-2671-4c1b-a450-b73c433de43f.png)
 
 
-After Adjustment
-
-![AA Spending Bins](https://user-images.githubusercontent.com/90162669/137656607-3088f989-55e6-46dd-92f5-ddbaf3d681a4.png)
+**After Adjustment:**
+![AA Spending Bins](https://user-images.githubusercontent.com/90162669/138526032-f41711a3-a761-4c11-8730-ac2069234e71.png)
 
 
 
@@ -72,11 +75,13 @@ After Adjustment
 include df image   Passing math % went done one percentage point, for medium size schools no other impact. 
 
 Before Adjustment
-![BA School Size Chart](https://user-images.githubusercontent.com/90162669/137656512-557cc9ee-f5de-4f44-a38e-957ba33556c2.png)
+
+![BA scores by school size](https://user-images.githubusercontent.com/90162669/138526833-4f7bd9b2-a1f8-42ff-8ed7-87957f298e9f.png)
 
 
 After Adjustment
-![AA School Size](https://user-images.githubusercontent.com/90162669/137656501-d30cfb0e-acb7-47a6-8ac9-e83bdc870882.png)
+
+![AA scores by school size](https://user-images.githubusercontent.com/90162669/138526841-9f5a2184-941c-4a81-a8a9-38ab92c6780b.png)
 
 
 ### Scores by School Type

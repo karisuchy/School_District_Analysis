@@ -5,7 +5,7 @@
 
 For this project, we are reviewing standardized test data for high school students at a local school district. The analysis and presentation materials in this report will provide insights about performance trends and patterns so the school board and superintendent  can make informed, strategic decisions regarding  budgets and priorities at the district level and for individual  schools. 
 
-At all stages of this project, the detailed data was treated confidentially to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). All information in this analysis that identifies individual students must also be considered both confidential and sensitive by the readers of this report.   
+At all stages of this project, the detailed data was treated confidentially to protect the students in accordance with the Family Educational Rights and Privacy Act (FERPA). All information in this analysis that identifies individual students must also be considered both confidential and sensitive by readers of this report.   
 
 ### Adjusted Data
 Based upon preliminary report findings, the school board suspected academic dishonesty with the reading and math scores for the ninth graders at Thomas High School. These scores have been removed from the analysis for this final report. 
@@ -21,8 +21,10 @@ The scores for all 9th Graders from Thomas High School were changed to NaN (not 
 
 ![THS 9th grade scores NaN](https://user-images.githubusercontent.com/90162669/137651818-8d0e53ba-d4ab-455a-9e2e-39d07b01bf9b.png)
 
-- How is the district summary affected?
-The impact of removing these students from the overall data was negligible. For example, the '% Overall Passing' decreased by only 0.3% as demonstrated  on the two charts below. 
+## Impact of Removing Data
+
+### District Impact
+The impact of removing these students at the district level was negligible. For example, the '% Overall Passing' decreased by only 0.3% as demonstrated  on the two charts below. 
 
 **District Summary Before Adjustment:**
 ![BA District Summary](https://user-images.githubusercontent.com/90162669/138365206-b02b7b8b-7644-4db5-9d5a-da8207d8bc3c.png)
@@ -33,7 +35,7 @@ The impact of removing these students from the overall data was negligible. For 
 ![AA District Summary](https://user-images.githubusercontent.com/90162669/138365232-a9442985-ab35-4849-b831-7e05b1b78ae1.png)
 
 
-- How is the school summary affected and how does it affect Thomas High School's performance relative to the other schools?
+### School Summary Impact
 The impact of the change is only slightly more noticeable  at the school level. Thomas High School's '% of Overall Passing' changed by 0.3%.  They were originally the only school in second place;  after the adjustment, they are now tied for second place with two other schools. 
 
 **Top Five Schools Prior to Adjustment:**
@@ -44,32 +46,17 @@ The impact of the change is only slightly more noticeable  at the school level. 
 ![AA Top 5 schools](https://user-images.githubusercontent.com/90162669/138364782-8d7172a3-0837-46d9-9a55-6026d1376880.png)
 
 
-### Impact of Removing Data
-- How does replacing the ninth-grade scores affect the following:
-need to add images of some of the code code
-
-
 #### Math and reading scores by grade
-
+The impact of the change was limited to the ninth graders at Thomas High school. 
 
 ![math scores before and after](https://user-images.githubusercontent.com/90162669/138534994-6f8875a0-a630-45d3-bcc1-3bb6786f707e.png)
-
-
 
 
 ![reading scores before and after](https://user-images.githubusercontent.com/90162669/138535054-2947d81f-3082-42ff-b50d-040d76ccb58e.png)
 
 
-
-#### Scores by school spending
-
-**Before Adjustment:**
-
-
-**After Adjustment:**
-
 #### Scores by School Spending
-include df image
+
 
 **Before Adjustment:**
 ![BA Spending Bins](https://user-images.githubusercontent.com/90162669/138526015-cc603467-2671-4c1b-a450-b73c433de43f.png)
@@ -80,7 +67,6 @@ include df image
 
 
 #### Scores by School Size
-include df image   Passing math % went done one percentage point, for medium size schools no other impact. 
 
 **Before Adjustment:**
 ![BA scores by school size](https://user-images.githubusercontent.com/90162669/138526833-4f7bd9b2-a1f8-42ff-8ed7-87957f298e9f.png)
@@ -102,12 +88,11 @@ include df image   Passing math % went done one percentage point, for medium siz
 
 
 ## Summary
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-add subheading 
-
 As demonstrated above, the overall impact of eliminating Thomas High School's ninth grade scores was negligible. A few areas where changes can be seen are: 
-
-
+- Thomas High School is no longer alone in the second place spot of high performing schools. 
+- Math and Reading scores by grade.
+- The scores for the $630 - $644 spending bin. 
+- The reading and overall percentages for medium size schools
 
 All information is available the shared development environment and is available on Git Hub.
 
